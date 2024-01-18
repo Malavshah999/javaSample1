@@ -5,7 +5,7 @@ pipeline {
   }
   environment {
     CI = true
-    ARTIFACTORY_ACCESS_TOKEN = credentials('artifactory-access-token')
+    ARTIFACTORY_ACCESS_TOKEN = credentials('cmVmdGtuOjAxOjE3MzcxMTcyODM6aVpQUERGNlUzdHJaZ0pldFZ5WmpWVDBTN21J')
   }
   stages {
     stage('Build') {
